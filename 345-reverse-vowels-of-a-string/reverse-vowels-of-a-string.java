@@ -32,6 +32,10 @@ class Solution {
 
     // Helper method to check if a character is a vowel
     private boolean isVowel(char c) {
-        return "aeiouAEIOU".indexOf(c) != -1;
+        if(c=='a' || c=='e' || c=='i' || c=='o' || c=='A' || c=='E' || c=='I' || c=='O' || c=='U' || c=='u')
+        {
+            return true;
+        }
+        return false;
     }
 }
